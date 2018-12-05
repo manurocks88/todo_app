@@ -8,19 +8,18 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
       <Header textIwant={'hello'}/>
-      <Header textIwant={'Goodbye'}/>
-              <Text style={styles.bigblue}>DO YOU DA WAE</Text>
+              <Text style={styles.bigblue}>BRUDDAH</Text>
         <Text>( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)</Text>
         <Avatar
   size="xlarge"
   rounded
   source={{uri: "https://i.kym-cdn.com/entries/icons/original/000/025/067/ugandanknuck.jpg"}}
-  onPress={() => console.log("Works!")}
+  onPress={() => console.log("DO YOU KNOW DA WAE")}
   activeOpacity={0.7}
 />
         <Button 
-          title= {'Hello'} 
-          onPress={() => { console.log('Hello') ; }}
+          title= {'ARE YOU THE QUEEN'} 
+          onPress={() => { console.log('SPIT ON FAKE QUEEN') ; }}
           color= 'green'
           />
       </View>
